@@ -1,6 +1,6 @@
 Name: sound-theme-freedesktop
 Version: 0.8
-Release: 2%{?dist}
+Release: 3%{?dist}
 Summary: freedesktop.org sound theme
 Group: User Interface/Desktops
 Source0: http://people.freedesktop.org/~mccann/dist/sound-theme-freedesktop-%{version}.tar.bz2
@@ -40,6 +40,9 @@ make install DESTDIR=$RPM_BUILD_ROOT
 %{_datadir}/sounds/freedesktop/stereo/*.oga
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.8-3
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.8-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
